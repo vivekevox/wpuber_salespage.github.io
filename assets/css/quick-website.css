@@ -1344,9 +1344,9 @@ pre code
     }
     .col-sm-6
     {
-        max-width: 50%; 
+        max-width: 100%; 
 
-        flex: 0 0 50%;
+        flex: 0 0 100%;
     }
     .col-sm-7
     {
@@ -28111,5 +28111,21 @@ section
 
     background-color: #600;
 }
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+    .img-fix {
+
+        width: 100%;
+    }
+
+}
+
+
+
 
 /*# sourceMappingURL=quick-website.css.map */
